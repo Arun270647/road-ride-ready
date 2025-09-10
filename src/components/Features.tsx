@@ -3,28 +3,28 @@ import { Card, CardContent } from "@/components/ui/card";
 const Features = () => {
   const features = [
     {
-      title: "24/7 Customer Support",
-      description: "Our team is available around the clock to assist you with any inquiries or support you may need."
-    },
-    {
       title: "Wide Range of Vehicles",
-      description: "From compact cars to spacious SUVs and vans, we have the perfect vehicle for every occasion."
-    },
-    {
-      title: "Flexible Rental Plans",
-      description: "Choose from hourly, daily, weekly, or monthly plans to fit your schedule and budget."
-    },
-    {
-      title: "Easy Online Booking",
-      description: "Rent your desired car in just a few clicks with our simple and secure online booking system."
-    },
-    {
-      title: "Well-Maintained Cars",
-      description: "All our vehicles are regularly serviced and maintained to ensure a safe and comfortable ride."
+      description: "From compact cars for city driving to spacious SUVs and vans for family trips, we have a vehicle for every need."
     },
     {
       title: "Transparent Pricing",
       description: "No hidden fees. Our pricing is straightforward, so you know exactly what you're paying for."
+    },
+    {
+      title: "24/7 Customer Support",
+      description: "Our dedicated support team is available around the clock to assist you with any inquiries or issues."
+    },
+    {
+      title: "Easy Booking Process",
+      description: "Rent a car in just a few clicks through our user-friendly online booking platform."
+    },
+    {
+      title: "Flexible Rental Periods",
+      description: "We offer flexible rental options, including hourly, daily, and long-term rentals to suit your schedule."
+    },
+    {
+      title: "Well-Maintained Cars",
+      description: "All our vehicles are regularly serviced and maintained to ensure a safe and comfortable driving experience."
     }
   ];
 
@@ -36,7 +36,7 @@ const Features = () => {
             Why Choose Us
           </h2>
           <p className="text-muted-foreground text-lg">
-            We provide the best car rental services for your needs.
+            We offer a seamless and reliable car rental experience.
           </p>
         </div>
         
