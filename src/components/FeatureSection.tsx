@@ -21,8 +21,8 @@ const FeatureSection = () => {
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, explicabo iste a labore id est quas, doloremque veritatis! Provident odit pariatur dolorem quisquam, voluptatibus voluptates optio accusamus, vel quasi quidem!
             </p>
-            <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-3">
-              Meet them now
+            <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-3" >
+              Book now 
             </Button>
           </div>
         </div>

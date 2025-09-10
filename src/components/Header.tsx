@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-2xl font-bold text-foreground">
-              CarRental
+              Kanika Travels
             </Link>
           </div>
           
@@ -17,12 +17,6 @@ const Header = () => {
             </Link>
             <Link to="/listing" className="text-muted-foreground hover:text-primary transition-colors">
               Listing
-            </Link>
-            <Link to="/testimonials" className="text-muted-foreground hover:text-primary transition-colors">
-              Testimonials
-            </Link>
-            <Link to="/blog" className="text-muted-foreground hover:text-primary transition-colors">
-              Blog
             </Link>
             <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors">
               About
