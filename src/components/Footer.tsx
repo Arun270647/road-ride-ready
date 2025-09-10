@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
     <footer className="bg-background border-t mt-auto">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left gap-8">
           {/* About Section */}
-          <div>
-            <h3 className="text-lg font-bold text-foreground mb-4">Kanika Travels </h3>
+          <div className="max-w-xs">
+            <h3 className="text-lg font-bold text-foreground mb-4">Kanika Travels</h3>
             <p className="text-muted-foreground">
               We offer a wide range of vehicles for all your driving needs. We have the perfect car to meet your needs.
             </p>
@@ -33,16 +32,6 @@ const Footer = () => {
               <li>+1 242 4942 290</li>
               <li>info@yourdomain.com</li>
             </ul>
-          </div>
-          
-          {/* Social Media */}
-          <div>
-            <h3 className="text-lg font-semibold text-foreground mb-4">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary"><Facebook /></a>
-              <a href="#" className="text-muted-foreground hover:text-primary"><Twitter /></a>
-              <a href="#" className="text-muted-foreground hover:text-primary"><Instagram /></a>
-            </div>
           </div>
         </div>
         
