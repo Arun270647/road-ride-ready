@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import featureImage from "@/assets/feature-image.jpg";
+import { Link } from "react-router-dom";
 
 const FeatureSection = () => {
   return (
@@ -16,14 +17,16 @@ const FeatureSection = () => {
           
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              You can easily avail our promo for renting a car.
+              Unlock Great Deals on Kanika Travels 
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, explicabo iste a labore id est quas, doloremque veritatis! Provident odit pariatur dolorem quisquam, voluptatibus voluptates optio accusamus, vel quasi quidem!
+              Discover our exclusive promotions and enjoy a seamless booking experience. Whether you're planning a road trip or need a car for your daily commute, we offer a wide range of vehicles to suit your needs. Our straightforward rental process ensures you get on the road quickly and hassle-free.
             </p>
-            <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-3" >
-              Book now 
-            </Button>
+            <Link to="/contact">
+              <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-3">
+                Book Now
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

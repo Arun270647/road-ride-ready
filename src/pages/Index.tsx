@@ -4,7 +4,7 @@ import HowItWorks from "@/components/HowItWorks";
 import FeatureSection from "@/components/FeatureSection";
 import CarListings from "@/components/CarListings";
 import Features from "@/components/Features";
-import Testimonials from "@/components/Testimonials";
+import Packages from "@/components/Packages";
 import CallToAction from "@/components/CallToAction";
 
 const Index = () => {
@@ -14,7 +14,7 @@ const Index = () => {
       <FeatureSection />
       <CarListings />
       <Features />
-      <Testimonials />
+      <Packages />
       <CallToAction />
     </div>
   );
