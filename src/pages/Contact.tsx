@@ -18,28 +18,26 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const contactNumber = "919994664334"; // Corrected phone number
+    const contactNumber = "919994664334";
     
     if (isMobile) {
       // On mobile, open the phone dialer
       window.location.href = `tel:${contactNumber}`;
     } else {
       // On desktop, open WhatsApp
-      const fullMessage = `
-Hello Kanika Travels,
-
-I'm interested in your services. Please find my details below:
-
-*Name:* ${firstName} ${lastName}
-*Email:* ${email}
-*Phone:* ${phone}
-
-*Message:*
-${message}
-
-Thank you.
-`;
+      const messageParts = [
+        "Hello Kanika Travels,",
+        "\n\nI'm interested in your services. Please find my details below:",
+        `\n\n*Name:* ${firstName} ${lastName}`,
+        `*Email:* ${email}`,
+        `*Phone:* ${phone}`,
+        `\n*Message:* \n${message}`,
+        "\n\nThank you."
+      ];
+      
+      const fullMessage = messageParts.join("");
       const whatsappUrl = `https://wa.me/${contactNumber}?text=${encodeURIComponent(fullMessage)}`;
+      
       window.open(whatsappUrl, "_blank");
     }
   };
@@ -148,7 +146,7 @@ Thank you.
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Address:</h4>
                     <p className="text-muted-foreground">
-                      Chennai, Tamil Nadu,<br />
+                      Tirunelveli, Tamil Nadu,<br />
                       India
                     </p>
                   </div>
@@ -159,8 +157,8 @@ Thank you.
                   </div>
                   
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Social Media:</h4>
-                    <p className="text-muted-foreground">@kanika_travels</p>
+                    <h4 className="font-semibold text-foreground mb-2">Email:</h4>
+                    <p className="text-muted-foreground">contact@kanikatravels.com</p>
                   </div>
                 </div>
               </div>
