@@ -30,7 +30,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Tirunelveli, Tamil Nadu, India</li>
               <li>+91 99946 64334</li>
-              <li>contact@kanikatravels.com</li>
+              <li>@kanika_travels</li>
             </ul>
           </div>
         </div>

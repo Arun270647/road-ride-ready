@@ -160,8 +160,8 @@ Thank you.
                   </div>
                   
                   <div>
-                    <h4 className="font-semibold text-foreground mb-2">Email:</h4>
-                    <p className="text-muted-foreground">contact@kanikatravels.com</p>
+                    <h4 className="font-semibold text-foreground mb-2">Social Media:</h4>
+                    <p className="text-muted-foreground">@kanika_travels</p>
                   </div>
                 </div>
               </div>
