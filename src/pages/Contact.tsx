@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const contactNumber = "919994664334";
+    const contactNumber = "919994664334"; // Corrected phone number
     
     if (isMobile) {
       // On mobile, open the phone dialer
@@ -30,11 +30,11 @@ Hello Kanika Travels,
 
 I'm interested in your services. Please find my details below:
 
-Name: ${firstName} ${lastName}
-Email: ${email}
-Phone: ${phone}
+*Name:* ${firstName} ${lastName}
+*Email:* ${email}
+*Phone:* ${phone}
 
-Message:
+*Message:*
 ${message}
 
 Thank you.
@@ -148,7 +148,7 @@ Thank you.
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Address:</h4>
                     <p className="text-muted-foreground">
-                      Tirunelveli, Tamil Nadu,<br />
+                      Chennai, Tamil Nadu,<br />
                       India
                     </p>
                   </div>
@@ -156,7 +156,6 @@ Thank you.
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Phone:</h4>
                     <p className="text-muted-foreground">+91 99946 64334</p>
-                    <p className="text-muted-foreground">+91 89256 99334</p>
                   </div>
                   
                   <div>
