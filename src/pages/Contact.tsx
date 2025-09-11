@@ -18,7 +18,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const contactNumber = "918438996701";
+    const contactNumber = "919994664334";
     
     if (isMobile) {
       // On mobile, open the phone dialer
@@ -155,7 +155,8 @@ Thank you.
                   
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Phone:</h4>
-                    <p className="text-muted-foreground">+91 84389 96701</p>
+                    <p className="text-muted-foreground">+91 99946 64334</p>
+                    <p className="text-muted-foreground">+91 89256 99334</p>
                   </div>
                   
                   <div>
