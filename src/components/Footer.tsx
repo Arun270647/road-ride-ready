@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="w-1/3 text-right">
             <h3 className="text-lg font-semibold text-foreground mb-4">Contact Info</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Tirunelveli, Tamil Nadu, India</li>
+              <li>Chennai, Tamil Nadu, India</li>
               <li>+91 99946 64334</li>
               <li>@kanika_travels</li>
             </ul>
