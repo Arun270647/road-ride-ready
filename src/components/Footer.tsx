@@ -29,7 +29,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-foreground mb-4">Contact Info</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Tirunelveli, Tamil Nadu, India</li>
-              <li>+91 84389 96701</li>
+              <li>+91 99946 64334</li>
               <li>contact@kanikatravels.com</li>
             </ul>
           </div>
