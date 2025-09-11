@@ -4,11 +4,44 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import aboutHero from "@/assets/about-hero.jpg";
+import { useState } from "react";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Contact = () => {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const isMobile = useIsMobile();
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
+    
+    const contactNumber = "918438996701";
+    
+    if (isMobile) {
+      // On mobile, open the phone dialer
+      window.location.href = `tel:${contactNumber}`;
+    } else {
+      // On desktop, open WhatsApp
+      const fullMessage = `
+Hello Kanika Travels,
+
+I'm interested in your services. Please find my details below:
+
+Name: ${firstName} ${lastName}
+Email: ${email}
+Phone: ${phone}
+
+Message:
+${message}
+
+Thank you.
+`;
+      const whatsappUrl = `https://wa.me/${contactNumber}?text=${encodeURIComponent(fullMessage)}`;
+      window.open(whatsappUrl, "_blank");
+    }
   };
 
   return (
@@ -39,8 +72,7 @@ const Contact = () => {
               Contact Us Or Use This Form To Rent A Car
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, 
-              dolorum necessitatibus eius earum voluptates sed!
+              We're here to help you with your travel needs. Reach out to us for bookings and inquiries.
             </p>
           </div>
           
@@ -54,6 +86,9 @@ const Contact = () => {
                       type="text" 
                       placeholder="First name"
                       className="h-12"
+                      value={firstName}
+                      onChange={(e) => setFirstName(e.target.value)}
+                      required
                     />
                   </div>
                   <div>
@@ -61,15 +96,29 @@ const Contact = () => {
                       type="text" 
                       placeholder="Last name"
                       className="h-12"
+                      value={lastName}
+                      onChange={(e) => setLastName(e.target.value)}
+                      required
                     />
                   </div>
                 </div>
                 
-                <div>
+                <div className="grid md:grid-cols-2 gap-6">
                   <Input 
                     type="email" 
                     placeholder="Email address"
                     className="h-12"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                  <Input 
+                    type="tel" 
+                    placeholder="Phone number"
+                    className="h-12"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                    required
                   />
                 </div>
                 
@@ -78,11 +127,14 @@ const Contact = () => {
                     placeholder="Write your message"
                     className="min-h-32 resize-none"
                     rows={6}
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    required
                   />
                 </div>
                 
                 <Button type="submit" size="lg" className="w-full md:w-auto">
-                  Send Message
+                  Contact Us
                 </Button>
               </form>
             </div>
@@ -96,19 +148,19 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Address:</h4>
                     <p className="text-muted-foreground">
-                      34 Street Name, City Name Here,<br />
-                      United States
+                      Tirunelveli, Tamil Nadu,<br />
+                      India
                     </p>
                   </div>
                   
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Phone:</h4>
-                    <p className="text-muted-foreground">+1 242 4942 290</p>
+                    <p className="text-muted-foreground">+91 84389 96701</p>
                   </div>
                   
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Email:</h4>
-                    <p className="text-muted-foreground">info@yourdomain.com</p>
+                    <p className="text-muted-foreground">contact@kanikatravels.com</p>
                   </div>
                 </div>
               </div>

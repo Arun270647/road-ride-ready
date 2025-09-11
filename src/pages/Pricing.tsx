@@ -11,6 +11,7 @@ const Pricing = () => {
       price: "₹1500",
       details: [
         "Minimum 5-hour rental",
+        "Up to 50km coverage included",
         "Ideal for city usage",
         "4+1 seating capacity",
         "Fuel efficient and easy to park",
@@ -20,7 +21,7 @@ const Pricing = () => {
       title: "XUV - 5 Hour Package",
       price: "₹2300",
       details: [
-        "5-hour rental duration",
+        "Minimum 5-hour rental duration",
         "Up to 50km coverage included",
         "6+1 seating capacity",
         "Spacious and comfortable for families",

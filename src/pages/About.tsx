@@ -29,12 +29,12 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-foreground mb-6">About Kanika Travels</h2>
-              <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                Founded on the principle of providing a seamless and reliable travel experience, we are dedicated to offering top-quality vehicles and exceptional customer service. Our mission is to make car rental simple, affordable, and convenient for everyone.
+              <h2 className="text-4xl font-bold text-foreground mb-6">Welcome to Kanika Travels</h2>
+              <p className="text-lg mb-6 leading-relaxed">
+                Founded by Venkat, Kanika Travels is your trusted partner for cab services across Tamil Nadu. Our mission is to make travel simple, affordable, and convenient, with a primary focus on major cities like Chennai, Coimbatore, Madurai, Tirunelveli (Nellai), and Trichy.
               </p>
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                Our vision is to be the leading car rental service in the region, known for our diverse fleet and customer-centric approach. From fuel-efficient small cars for city commutes to spacious XUVs for family adventures, we have a vehicle for every need. At Road Ride Ready, your adventure is just a drive away.
+              <p className="text-lg leading-relaxed">
+                Our vision is to be the leading car rental service in the region, known for our diverse fleet and customer-centric approach. From small cars for city commutes to spacious XUVs for family adventures, we have a vehicle for every need. At Road Ride Ready, your next journey is just a call away.
               </p>
             </div>
             <div>

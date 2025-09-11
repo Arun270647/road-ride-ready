@@ -7,7 +7,7 @@ const Packages = () => {
     {
       title: "Small Vehicle - Local",
       price: "₹1500",
-      description: "Minimum 5-hour package, perfect for city commutes and short trips.",
+      description: "Minimum 5-hour package with up to 50km coverage, perfect for city commutes.",
     },
     {
       title: "XUV - Explorer",

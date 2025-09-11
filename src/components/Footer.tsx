@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="max-w-xs">
             <h3 className="text-lg font-bold text-foreground mb-4">Kanika Travels</h3>
             <p className="text-muted-foreground">
-              We offer a wide range of vehicles for all your driving needs. We have the perfect car to meet your needs.
+              Your trusted partner for cab services across Tamil Nadu. We have the perfect car to meet your needs.
             </p>
           </div>
           
@@ -28,15 +28,16 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4">Contact Info</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>34 Street Name, City Name Here, United States</li>
-              <li>+1 242 4942 290</li>
-              <li>info@yourdomain.com</li>
+              <li>Chennai, Tamil Nadu, India</li>
+              <li>+91 89256 99334</li>
+              <li>+91 99946 64334</li>
+              <li>@kanika_travels</li>
             </ul>
           </div>
         </div>
         
         <div className="mt-8 border-t pt-6 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} CarRental. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kanika Travels All rights reserved.</p>
         </div>
       </div>
     </footer>
