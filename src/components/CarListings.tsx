@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 // Import car images
 import pajeroImg from "@/assets/cars/xuv.webp";
-import mocoImg from "@/assets/cars/van.jpg";
+import mocoImg from "@/assets/cars/bus.jpg";
 import fittaImg from "@/assets/cars/glanza.jpg";
 import lauraImg from "@/assets/cars/tempo.png";
 

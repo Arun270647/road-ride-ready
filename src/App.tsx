@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Listing from "./pages/Listing";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
+import Booking from "./pages/Booking"; // Import the new Booking page
 import NotFound from "./pages/NotFound";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -29,7 +30,7 @@ const App = () => (
               <Route path="/listing" element={<Listing />} />
               <Route path="/pricing" element={<Pricing />} />
               <Route path="/contact" element={<Contact />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="/booking/:carName" element={<Booking />} /> {/* Add this new route */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

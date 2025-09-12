@@ -1,12 +1,15 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Check } from "lucide-react";
+import swiftImg from "@/assets/cars/glanza.jpg"; 
+import glanzaImg from "@/assets/cars/xuv.webp";
+import busImg from "@/assets/cars/bus.jpg"; 
 
 const Packages = () => {
   const packages = [
     {
       title: "Small Vehicle", // Changed title to be shorter
       price: "₹1500",
-      image: "https://via.placeholder.com/150x100/ADD8E6/000000?text=Small+Car", // Placeholder image
+      image: swiftImg, // Placeholder image
       details: [
         "Minimum 5-hour rental",
         "Up to 50km coverage included",
@@ -18,7 +21,7 @@ const Packages = () => {
     {
       title: "Large Vehicle", // Changed title to be shorter
       price: "₹2300",
-      image: "https://via.placeholder.com/150x100/FFB6C1/000000?text=Large+Car", // Placeholder image
+      image: glanzaImg, // Placeholder image
       details: [
         "5-hour rental duration",
         "Up to 50km coverage included",
@@ -29,7 +32,7 @@ const Packages = () => {
     {
       title: "Van & Tempo - Custom Packages",
       price: "Contact Us for Pricing",
-      image: "https://via.placeholder.com/150x100/90EE90/000000?text=Van+%26+Tempo", // Placeholder image
+      image: busImg, // Placeholder image
       details: [
         "Pricing based on rental period",
         "Ideal for large groups and tours",
