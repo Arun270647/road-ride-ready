@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import HowItWorks from "@/components/HowItWorks";
-import FeatureSection from "@/components/FeatureSection";
+import Reservation from "@/components/Reservation";
 import CarListings from "@/components/CarListings";
 import Features from "@/components/Features";
 import Packages from "@/components/Packages";
@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <FeatureSection />
+      <Reservation />
       <CarListings />
       <Features />
       <Packages />

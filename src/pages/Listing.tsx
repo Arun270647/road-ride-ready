@@ -16,7 +16,7 @@ import xuvImg from "@/assets/cars/xuv.webp";
 import pajImg from "@/assets/cars/pajero.avif";
 import innovaImg from "@/assets/cars/innova.avif";// Placeholder for XUV
 import scorpioImg from "@/assets/cars/scorpio.jpg"; // Placeholder for Scorpio
-import vanImg from "@/assets/cars/moco.jpg";
+import vanImg from "@/assets/cars/van.jpg";
 import van2Img from "@/assets/cars/minibus.jpg";
 import tempo2Img from "@/assets/cars/ltem.jpg";
 import kiaImg from "@/assets/cars/caren.avif"; // Placeholder for Van
