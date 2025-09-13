@@ -2,12 +2,21 @@ import Header from "@/components/Header";
 import { Link } from "react-router-dom";
 import aboutHero from "@/assets/about-hero.jpg";
 import carCompany from "@/assets/car-company.jpg";
+import { Helmet } from 'react-helmet-async';
 
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>About Kanika Travels – Affordable Cab Service</title>
+        <meta name="description" content="Learn more about Kanika Travels, our cab rental services, airport transfers, and outstation rides." />
+        <meta name="keywords" content="About Kanika Travels, cab rental Chennai, outstation taxi Tamil Nadu" />
+        <meta property="og:title" content="About Kanika Travels – Affordable Cab Service" />
+        <meta property="og:description" content="Learn more about Kanika Travels, our cab rental services, airport transfers, and outstation rides." />
+      </Helmet>
+
       <Header />
-      
+
       {/* Hero Section */}
       <section 
         className="relative h-80 bg-cover bg-center flex items-center justify-center"
