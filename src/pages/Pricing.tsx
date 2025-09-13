@@ -146,4 +146,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;a
+export default Pricing;
