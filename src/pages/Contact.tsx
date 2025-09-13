@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import aboutHero from "@/assets/about-hero.jpg";
 import { useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
   const [firstName, setFirstName] = useState("");
@@ -44,6 +45,24 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Contact Kanika Travels – Book Your Cab Today</title>
+        <meta
+          name="description"
+          content="Get in touch with Kanika Travels for cab bookings, airport transfers, and outstation rides. Fill our contact form or reach us via phone or email."
+        />
+        <meta
+          name="keywords"
+          content="Kanika Travels contact, cab booking Tirunelveli, Chennai cab rental contact, airport taxi inquiry"
+        />
+        <meta property="og:title" content="Contact Kanika Travels – Book Your Cab Today" />
+        <meta
+          property="og:description"
+          content="Reach out to Kanika Travels for cab bookings, airport transfers, and outstation rides. Fill our contact form or contact us directly."
+        />
+        <meta property="og:image" content={aboutHero} />
+      </Helmet>
+
       <Header />
       
       {/* Hero Section */}
