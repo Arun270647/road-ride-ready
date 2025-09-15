@@ -2,23 +2,35 @@ import Header from "@/components/Header";
 import { Link } from "react-router-dom";
 import aboutHero from "@/assets/about-hero.jpg";
 import carCompany from "@/assets/car-company.jpg";
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
         <title>About Kanika Travels – Affordable Cab Service</title>
-        <meta name="description" content="Learn more about Kanika Travels, our cab rental services, airport transfers, and outstation rides." />
-        <meta name="keywords" content="About Kanika Travels, cab rental Chennai, outstation taxi Tamil Nadu" />
-        <meta property="og:title" content="About Kanika Travels – Affordable Cab Service" />
-        <meta property="og:description" content="Learn more about Kanika Travels, our cab rental services, airport transfers, and outstation rides." />
+        <meta
+          name="description"
+          content="Learn more about Kanika Travels, our cab rental services, airport transfers, and outstation rides."
+        />
+        <meta
+          name="keywords"
+          content="About Kanika Travels, cab rental Chennai, outstation taxi Tamil Nadu"
+        />
+        <meta
+          property="og:title"
+          content="About Kanika Travels – Affordable Cab Service"
+        />
+        <meta
+          property="og:description"
+          content="Learn more about Kanika Travels, our cab rental services, airport transfers, and outstation rides."
+        />
       </Helmet>
 
       <Header />
 
       {/* Hero Section */}
-      <section 
+      <section
         className="relative h-80 bg-cover bg-center flex items-center justify-center"
         style={{ backgroundImage: `url(${aboutHero})` }}
       >
@@ -26,30 +38,41 @@ const About = () => {
         <div className="relative z-10 text-center text-white">
           <h1 className="text-5xl font-bold mb-4">About Us</h1>
           <nav className="text-lg">
-            <Link to="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link to="/" className="hover:text-primary transition-colors">
+              Home
+            </Link>
             <span className="mx-2">/</span>
             <span>About</span>
           </nav>
         </div>
       </section>
 
-      {/* About Us Content Section */}
+      {/* About Us Content */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-foreground mb-6">Welcome to Kanika Travels</h2>
+              <h2 className="text-4xl font-bold text-foreground mb-6">
+                Welcome to Kanika Travels
+              </h2>
               <p className="text-lg mb-6 leading-relaxed">
-                Founded by Venkat, Kanika Travels is your trusted partner for cab services across Tamil Nadu. Our mission is to make travel simple, affordable, and convenient, with a primary focus on major cities like Chennai, Coimbatore, Madurai, Tirunelveli (Nellai), and Trichy.
+                Founded by Venkat, Kanika Travels is your trusted partner for cab
+                services across Tamil Nadu. Our mission is to make travel simple,
+                affordable, and convenient, with a primary focus on major cities
+                like Chennai, Coimbatore, Madurai, Tirunelveli (Nellai), and Trichy.
               </p>
               <p className="text-lg leading-relaxed">
-                Our vision is to be the leading car rental service in the region, known for our diverse fleet and customer-centric approach. From small cars for city commutes to spacious XUVs for family adventures, we have a vehicle for every need. At Road Ride Ready, your next journey is just a call away.
+                Our vision is to be the leading car rental service in the region,
+                known for our diverse fleet and customer-centric approach. From
+                small cars for city commutes to spacious XUVs for family
+                adventures, we have a vehicle for every need. At Road Ride Ready,
+                your next journey is just a call away.
               </p>
             </div>
             <div>
-              <img 
-                src={carCompany} 
-                alt="Happy couple in car" 
+              <img
+                src={carCompany}
+                alt="Happy couple in car"
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
