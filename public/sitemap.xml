@@ -1,62 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+    <!-- Home Page -->
     <url>
         <loc>https://kanikatravels.com/</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/hero-bg.jpg</image:loc>
+            <image:title>Kanika Travels - Premium Car Rental Services</image:title>
+            <image:caption>Luxury and Comfort Car Rental Services in Tamil Nadu</image:caption>
+        </image:image>
     </url>
+
+    <!-- Main Navigation Pages -->
     <url>
         <loc>https://kanikatravels.com/about</loc>
-    </url>
-    <url>
-        <loc>https://kanikatravels.com/listing</loc>
-    </url>
-    <url>
-        <loc>https://kanikatravels.com/pricing</loc>
-    </url>
-    <url>
-        <loc>https://kanikatravels.com/contact</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/about-hero.jpg</image:loc>
+            <image:title>About Kanika Travels</image:title>
+            <image:caption>Learn about our history and commitment to quality service</image:caption>
+        </image:image>
     </url>
 
     <url>
-        <loc>https://kanikatravels.com/booking/Swift</loc>
+        <loc>https://kanikatravels.com/listing</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
+
+    <url>
+        <loc>https://kanikatravels.com/pricing</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://kanikatravels.com/contact</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Car Booking Pages -->
+    <!-- Economy Cars -->
+    <url>
+        <loc>https://kanikatravels.com/booking/Swift</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/swift.jpg</image:loc>
+            <image:title>Maruti Swift Car Rental</image:title>
+            <image:caption>Book Maruti Swift for comfortable city travel</image:caption>
+        </image:image>
+    </url>
+
     <url>
         <loc>https://kanikatravels.com/booking/Glanza</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/glanza.jpg</image:loc>
+            <image:title>Toyota Glanza Car Rental</image:title>
+            <image:caption>Premium hatchback for comfortable city travel</image:caption>
+        </image:image>
     </url>
+
     <url>
         <loc>https://kanikatravels.com/booking/Baleno</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/baleno.jpg</image:loc>
+            <image:title>Maruti Baleno Car Rental</image:title>
+            <image:caption>Spacious premium hatchback for family travel</image:caption>
+        </image:image>
     </url>
-    <url>
-        <loc>https://kanikatravels.com/booking/Wagnor</loc>
-    </url>
-    <url>
-        <loc>https://kanikatravels.com/booking/Indica</loc>
-    </url>
+
+    <!-- Premium SUVs -->
     <url>
         <loc>https://kanikatravels.com/booking/XUV</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/xuv.jpg</image:loc>
+            <image:title>Mahindra XUV Car Rental</image:title>
+            <image:caption>Luxury SUV for comfortable long-distance travel</image:caption>
+        </image:image>
     </url>
-    <url>
-        <loc>https://kanikatravels.com/booking/Pajero</loc>
-    </url>
+
     <url>
         <loc>https://kanikatravels.com/booking/Innova</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/innova.jpg</image:loc>
+            <image:title>Toyota Innova Car Rental</image:title>
+            <image:caption>Spacious MPV for family and group travel</image:caption>
+        </image:image>
     </url>
+
+    <!-- Luxury Vehicles -->
     <url>
         <loc>https://kanikatravels.com/booking/Crysta</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/crysta.jpg</image:loc>
+            <image:title>Toyota Innova Crysta Rental</image:title>
+            <image:caption>Premium luxury MPV for executive travel</image:caption>
+        </image:image>
     </url>
-    <url>
-        <loc>https://kanikatravels.com/booking/Scorpio</loc>
-    </url>
-    <url>
-        <loc>https://kanikatravels.com/booking/Van</loc>
-    </url>
+
+    <!-- Group Transportation -->
     <url>
         <loc>https://kanikatravels.com/booking/Mini%20Bus</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/mini-bus.jpg</image:loc>
+            <image:title>Mini Bus Rental</image:title>
+            <image:caption>Comfortable mini bus for group travel</image:caption>
+        </image:image>
     </url>
+
     <url>
         <loc>https://kanikatravels.com/booking/Tempo%20Traveller</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/tempo-traveller.jpg</image:loc>
+            <image:title>Tempo Traveller Rental</image:title>
+            <image:caption>Spacious tempo traveller for group tours</image:caption>
+        </image:image>
     </url>
+
     <url>
         <loc>https://kanikatravels.com/booking/Luxury%20Tempo%20Traveller</loc>
+        <lastmod>2024-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://kanikatravels.com/cars/luxury-tempo-traveller.jpg</image:loc>
+            <image:title>Luxury Tempo Traveller Rental</image:title>
+            <image:caption>Premium tempo traveller with luxury amenities</image:caption>
+        </image:image>
     </url>
+
 </urlset>
