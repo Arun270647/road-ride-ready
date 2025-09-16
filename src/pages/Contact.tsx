@@ -164,7 +164,7 @@ Thank you.`;
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Address:</h4>
                     <p className="text-muted-foreground">
-                      Tirunelveli, Tamil Nadu,<br />
+                      Perumal Kovil Street, Old Pallavaram, Chennai, Tamilnadu - 600117<br />
                       India
                     </p>
                   </div>
@@ -177,7 +177,7 @@ Thank you.`;
                   
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Email:</h4>
-                    <p className="text-muted-foreground">contact@kanikatravels.com</p>
+                    <p className="text-muted-foreground">info.kanikatravels@gmail.com</p>
                   </div>
                 </div>
               </div>
