@@ -1,16 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <url>
+        <loc>https://kanikatravels.com/</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/about</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/listing</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/pricing</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/contact</loc>
+    </url>
 
-<url>
-  <loc>https://kanikatravels.com/</loc>
-  <lastmod>2025-09-13T12:46:16+00:00</lastmod>
-</url>
-
-
+    <url>
+        <loc>https://kanikatravels.com/booking/Swift</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Glanza</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Baleno</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Wagnor</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Indica</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/XUV</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Pajero</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Innova</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Crysta</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Scorpio</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Van</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Mini%20Bus</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Tempo%20Traveller</loc>
+    </url>
+    <url>
+        <loc>https://kanikatravels.com/booking/Luxury%20Tempo%20Traveller</loc>
+    </url>
 </urlset>
