@@ -39,9 +39,8 @@ const Index = () => {
 
       {/* ✅ Page Components */}
       <Header />
-      <HeroSection />
-      <HowItWorks />
       <Reservation />
+      <HowItWorks />
       <CarListings />
       <Features />
       <Packages />

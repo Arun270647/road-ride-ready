@@ -1,21 +1,22 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const HowItWorks = () => {
   const steps = [
     {
       number: "01.",
-      title: "Select a car",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!"
+      title: "Choose Your Vehicle",
+      description: "Browse our diverse fleet and select the perfect car, van, or bus that fits your travel needs and budget."
     },
     {
       number: "02.",
-      title: "Fill up form",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!"
+      title: "Enter Your Details",
+      description: "Fill out our simple booking form with your pickup/drop-off locations, date, and time to get an instant trip estimate."
     },
     {
       number: "03.",
-      title: "Payment",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!"
+      title: "Confirm & Travel",
+      description: "Confirm your booking with us, and you're all set! Enjoy a safe and comfortable journey to your destination."
     }
   ];
 
@@ -53,9 +54,9 @@ const HowItWorks = () => {
         </div>
         
         <div className="text-center mt-12">
-          <a href="#" className="text-primary hover:underline font-semibold">
-            Video how it works
-          </a>
+          <Link to="/listing" className="text-primary hover:underline font-semibold">
+            Check out our fleet now
+          </Link>
         </div>
       </div>
     </section>
