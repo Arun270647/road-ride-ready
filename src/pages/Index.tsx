@@ -4,9 +4,13 @@ import HowItWorks from "@/components/HowItWorks";
 import Reservation from "@/components/Reservation";
 import CarListings from "@/components/CarListings";
 import Features from "@/components/Features";
+import { Helmet } from "react-helmet-async";
+// Remove unused Hero import since component doesn't exist
+// Remove About import since component doesn't exist
+// Remove Services import since component doesn't exists
+import Testimonials from "@/components/Testimonials";
 import Packages from "@/components/Packages";
 import CallToAction from "@/components/CallToAction";
-import { Helmet } from 'react-helmet-async';
 
 const Index = () => {
   return (

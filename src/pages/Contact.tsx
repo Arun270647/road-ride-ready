@@ -19,26 +19,25 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    const contactNumber = "919994664334";
-    
+    const contactNumbers = ["919994664334", "918925699334"];
+    const contactMessage = `Hello Kanika Travels,
+
+I'm interested in your services. Please find my details below:
+
+*Name:* ${firstName} ${lastName}
+*Email:* ${email}
+*Phone:* ${phone}
+
+*Message:* ${message}
+
+Thank you.`;
+
+    // On mobile, open the phone dialer for the first number
     if (isMobile) {
-      // On mobile, open the phone dialer
-      window.location.href = `tel:${contactNumber}`;
+      window.location.href = `tel:${contactNumbers[0]}`;
     } else {
-      // On desktop, open WhatsApp
-      const messageParts = [
-        "Hello Kanika Travels,",
-        "\n\nI'm interested in your services. Please find my details below:",
-        `\n\n*Name:* ${firstName} ${lastName}`,
-        `*Email:* ${email}`,
-        `*Phone:* ${phone}`,
-        `\n*Message:* \n${message}`,
-        "\n\nThank you."
-      ];
-      
-      const fullMessage = messageParts.join("");
-      const whatsappUrl = `https://wa.me/${contactNumber}?text=${encodeURIComponent(fullMessage)}`;
-      
+      // On desktop, open WhatsApp with both numbers
+      const whatsappUrl = `https://wa.me/${contactNumbers[0]}?text=${encodeURIComponent(contactMessage)}&secondary_number=${contactNumbers[1]}`;
       window.open(whatsappUrl, "_blank");
     }
   };
@@ -173,6 +172,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Phone:</h4>
                     <p className="text-muted-foreground">+91 99946 64334</p>
+                    <p className="text-muted-foreground">+91 89256 99334</p>
                   </div>
                   
                   <div>
