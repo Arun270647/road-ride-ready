@@ -164,8 +164,7 @@ Thank you.`;
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Address:</h4>
                     <p className="text-muted-foreground">
-                      Perumal Kovil Street, Old Pallavaram, Chennai, Tamilnadu - 600117<br />
-                      India
+                      Perumal Kovil Street, Old Pallavaram, Chennai, Tamilnadu - 600117
                     </p>
                   </div>
                   
